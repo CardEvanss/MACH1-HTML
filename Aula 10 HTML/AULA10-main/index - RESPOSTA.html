@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08 - iframe</title>
+</head>
+<body>
+    
+    <!-- <video controls src="assets/movies/APP.mp4" width="300" poster="assets/images/images.jpg"></video> -->
+    
+    <!-- <audio src=""></audio> -->
+
+    <video muted preload="metadata" loop controls width="480" poster="assets/images/images.jpg">
+        <source src="assets/movies/APP.mp4" type="video/mp4">
+        <source src="assets/movies/1.mp4" type="video/mp4">
+        <p> Este video é incompativel, Por favor, Utilize o Chrome</p>
+
+    <track src="assets/sub/apres_en.vtt" kind="subtitles" srclang="en" label="Inglês" default>
+    <track src="assets/sub/apres_pt.vtt" kind="subtitles" srclang="pt-br" label="AA">
+    </video>
+    
+    
+    <iframe width="100%" height="2000" src="assets/html/evanderson.html" frameborder="0"></iframe>
+
+    <br><br>
+    
+    <input type="text" name="nome" placeholder="Nome">
+    <br>
+    <input type="text" name="e-mail" placeholder="E-mail">
+    <br>
+    <input type="tel" name="telefone" placeholder="Telefone">
+    <br>
+    <textarea></textarea name="mensagem" placeholder="Mensagem">
+    <br>
+    <select name="Pref Contato" id="">
+        <option value="telefone">Telefone</option>
+        <option value="whatsapp">Whatsapp</option>
+        <option value="mensagem">Mensagem</option>
+        <option value="e-mail">E-mail</option>
+    </select>
+
+</body>
+</html>

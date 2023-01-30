@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 07</title>
+</head>
+<style>
+	body {
+		display: grid;
+		grid-gap: 400px;
+	}
+</style>
+<body>
+    
+    <img title="Cesta com gatos" src="assets/images/Gatos.jpg" alt="Cesta com gatos" loading="lazy">
+
+    <hr>
+
+    <!-- <div style="background-image: url('assets/images/Gatos.jpg'); height: 300px;"
+    ></div> -->
+
+    <figure>
+        <img src="assets/images/Gatos.jpg" title="Cesta com gatinhos" alt="Cesta com gatinhos" loading="lazy">
+        <figcaption>Cesta com gatinhos</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/01-320w.jpg 320w, assets/images/01-480w.jpg 400w, assets/images/01-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/01-320w.jpg" title="Flor" alt="flor" loading="lazy">
+        <figcaption>Flor</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/02-320w.jpg 320w, assets/images/02-480w.jpg 400w, assets/images/03-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/02-320w.jpg" title="Passaro" alt="Passaro" loading="lazy">
+        <figcaption>Passaro</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/03-320w.jpg 320w, assets/images/03-480w.jpg 400w, assets/images/03-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/03-320w.jpg" title="Lua" alt="Lua" loading="lazy">
+        <figcaption>Lua</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/04-320w.jpg 320w, assets/images/04-480w.jpg 400w, assets/images/04-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/04-320w.jpg" title="Ponte" alt="Ponte" loading="lazy">
+        <figcaption>Ponte</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/05-320w.jpg 320w, assets/images/05-480w.jpg 400w, assets/images/05-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/05-320w.jpg" title="Bola" alt="Bola" loading="lazy">
+        <figcaption>Bola</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/06-320w.jpg 320w, assets/images/06-480w.jpg 400w, assets/images/06-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/06-320w.jpg" title="Mandala" alt="Mandala" loading="lazy">
+        <figcaption>Mandala</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/07-320w.jpg 320w, assets/images/07-480w.jpg 400w, assets/images/07-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/07-320w.jpg" title="Triangulo" alt="Triangulo" loading="lazy">
+        <figcaption>Triangulo</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/08-320w.jpg 320w, assets/images/08-480w.jpg 400w, assets/images/08-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/08-320w.jpg" title="Olho" alt="Olho" loading="lazy">
+        <figcaption>Olho</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/09-320w.jpg 320w, assets/images/09-480w.jpg 400w, assets/images/09-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/09-320w.jpg" title="homem" alt="homem" loading="lazy">
+        <figcaption>homem</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/10-320w.jpg 320w, assets/images/10-480w.jpg 400w, assets/images/10-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/10-320w.jpg" title="coração" alt="coração" loading="lazy">
+        <figcaption>Coração</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/11-320w.jpg 320w, assets/images/11-480w.jpg 400w, assets/images/11-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/11-320w.jpg" title="Ioga" alt="ioga" loading="lazy">
+        <figcaption>Ioga</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/12-320w.jpg 320w, assets/images/12-480w.jpg 400w, assets/images/12-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/12-320w.jpg" title="lampada" alt="lampada" loading="lazy">
+        <figcaption>Lampada</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/13-320w.jpg 320w, assets/images/13-480w.jpg 400w, assets/images/13-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/13-320w.jpg" title="livro" alt="livro" loading="lazy">
+        <figcaption>livro</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/14-320w.jpg 320w, assets/images/14-480w.jpg 400w, assets/images/14-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/14-320w.jpg" title="Brasil" alt="Brasil" loading="lazy">
+        <figcaption>Brasil</figcaption>
+    </figure>
+
+    <figure>
+        <img srcset="assets/images/15-320w.jpg 320w, assets/images/15-480w.jpg 400w, assets/images/15-800w.jpg 800w" 
+            sizes="(max-width: 320px) 250px, (max-width: 640px) 480px, (max-width: 800px) 800px"
+            src="assets/images/15-320w.jpg" title="Lobo" alt="Lobo" loading="lazy">
+        <figcaption>Lobo</figcaption>
+    </figure>
+
+
+
+</body>
+</html>

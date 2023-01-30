@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11</title>
+</head>
+<body>
+
+    <form action="http://mach1.great-site.net/cadastroRecruta.php" method="post" enctype="multipart/form-data">
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        
+            <label>
+                Seu nome
+                <input id="id_nome" type="text" placeholder="Nome" name="nome">
+            </label>
+        
+        
+            <br><br>
+            <label for="">Seu Sobrenome</label>
+            <input type="text" placeholder="Sobrenome" name="Sobrenome">
+        <br><br>
+            <label for="">Sua Idade</label>
+            <input type="number" placeholder="Idade" name="Idade">
+    </fieldset>
+    
+    <br>
+
+    <fieldset>
+        <legend>Contatos</legend>
+        <input type="email" placeholder="seu.email@mail.com" name="e-mail">
+        <br><br>
+        <input type="tel" placeholder="(00) 0 0000 0000" name="fone">
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Endereço</legend>
+        <input type="text" placeholder="Rua" name="rua">
+        <br><br>
+        <input type="text" placeholder="Número" name="casa_numero">
+        <br><br>
+        <input type="text" id="" placeholder="Bairro" name="bairro">
+        <br><br>
+            <select name="regiao" id="">
+                
+                <option value="">Selecione sua região</option>
+                <option value="ne">Nordeste</option>
+                <option value="s">Sul</option>
+                <option value="no">Norte</option>
+                <option value="co">Centro Oeste</option>
+                <option value="se">Sudeste</option>
+                <option value="op">Outros países</option>
+            </select>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Outras Informações</legend>
+
+        <p>Mora Sozinho?</p>
+        <label>
+            <input type="radio" name="mora" value="Sozinho">Sim
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="mora" value="Acompanhado">Não
+        </label>
+
+        <br><br>
+
+        <p>Tem eletrodomésticos</p>
+
+        <label>
+            <input type="checkbox" name="fogao" value="fogao"> Fogão
+        </label>
+
+        <br>
+
+        <label>
+            <input type="checkbox" name="geladeira" value="geladeira">Geladeira
+        </label>
+
+        <br>
+
+        <label>
+            <input type="checkbox" name="tv" value="tv">TV
+        </label>
+
+    </fieldset>
+    <br><br>
+    <input type="submit">
+    <input type="button" value="IB - Enviar">
+    <button>B - Enviar</button>
+    
+    </form>
+
+</body>
+</html>
